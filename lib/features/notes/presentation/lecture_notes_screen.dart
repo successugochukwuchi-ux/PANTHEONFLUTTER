@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons_flutter/lucide_icons_flutter.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 
 class LectureNotesScreen extends StatelessWidget {
   const LectureNotesScreen({super.key});
@@ -91,10 +91,10 @@ class LectureNotesScreen extends StatelessWidget {
                 itemCount: 8,
                 separatorBuilder: (context, index) => const Divider(),
                 itemBuilder: (context, index) => ListTile(
-                  leading: const Icon(LucideIcons.fileText),
+                  leading: Icon(LucideIcons.fileText),
                   title: Text('Module ${index + 1}: Topic Name'),
                   subtitle: const Text('Added on Jan 12, 2024'),
-                  trailing: const Icon(LucideIcons.chevronRight),
+                  trailing: Icon(LucideIcons.chevronRight),
                   onTap: () {},
                 ),
               ),

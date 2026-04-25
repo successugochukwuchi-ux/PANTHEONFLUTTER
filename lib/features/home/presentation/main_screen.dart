@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:lucide_icons_flutter/lucide_icons_flutter.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 import 'package:pantheon/core/constants.dart';
 
 class MainScreen extends StatelessWidget {
@@ -14,7 +14,7 @@ class MainScreen extends StatelessWidget {
         title: const Text(AppConstants.appName, style: TextStyle(color: Color(0xFF0052D4), fontWeight: FontWeight.bold)),
         actions: [
           IconButton(
-            icon: const Icon(LucideIcons.bell),
+            icon: Icon(LucideIcons.bell),
             onPressed: () {},
           ),
           const Padding(

@@ -1,0 +1,38 @@
+Resolving dependencies...
+Downloading packages...
+  flutter_riverpod 2.6.1 (3.3.1 available)
+  go_router 14.8.1 (17.2.2 available)
+  google_fonts 6.3.3 (8.0.2 available)
+  matcher 0.12.18 (0.12.19 available)
+  meta 1.17.0 (1.18.2 available)
+  native_toolchain_c 0.17.6 (0.18.0 available)
+  riverpod 2.6.1 (3.2.1 available)
+  test_api 0.7.9 (0.7.11 available)
+  vector_math 2.2.0 (2.3.0 available)
+  xml 6.6.1 (7.0.0 available)
+Got dependencies!
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing lib...
+
+   info • 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre • lib/core/theme.dart:25:9 • deprecated_member_use
+warning • Unused import: 'package:pantheon/core/constants.dart' • lib/features/auth/presentation/login_screen.dart:3:8 • unused_import
+   info • Use a 'SizedBox' to add whitespace to a layout • lib/features/home/presentation/dashboard_screen.dart:43:11 • sized_box_for_whitespace
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/home/presentation/dashboard_screen.dart:73:62 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/home/presentation/dashboard_screen.dart:112:24 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/home/presentation/dashboard_screen.dart:114:43 • deprecated_member_use
+warning • Unused import: 'package:lucide_icons/lucide_icons.dart' • lib/features/home/presentation/news_board_screen.dart:2:8 • unused_import
+   info • Unnecessary braces in a string interpolation • lib/features/home/presentation/news_board_screen.dart:25:75 • unnecessary_brace_in_string_interps
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/home/presentation/news_board_screen.dart:39:74 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/notes/presentation/lecture_notes_screen.dart:46:65 • deprecated_member_use
+  error • The getter 'messagePlus' isn't defined for the type 'LucideIcons' • lib/features/social/presentation/chats_screen.dart:29:35 • undefined_getter
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/study/presentation/cbt_practice_screen.dart:47:23 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/study/presentation/cbt_practice_screen.dart:79:66 • deprecated_member_use
+   info • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/study/presentation/cbt_practice_screen.dart:135:33 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/study/presentation/cbt_practice_screen.dart:151:74 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/study/presentation/cbt_practice_screen.dart:193:47 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/study/presentation/cbt_practice_screen.dart:206:51 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/study/presentation/past_questions_screen.dart:25:15 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/study/presentation/video_library_screen.dart:25:15 • deprecated_member_use
+
+19 issues found. (ran in 1.8s)

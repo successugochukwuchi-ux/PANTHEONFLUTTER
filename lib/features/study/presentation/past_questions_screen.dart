@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons_flutter/lucide_icons_flutter.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 
 class PastQuestionsScreen extends StatefulWidget {
   const PastQuestionsScreen({super.key});
@@ -36,7 +36,7 @@ class _PastQuestionsScreenState extends State<PastQuestionsScreen> {
                 itemBuilder: (context, index) {
                   final year = 2023 - index;
                   return ListTile(
-                    leading: const Icon(LucideIcons.fileText, color: Colors.blue),
+                    leading: Icon(LucideIcons.fileText, color: Colors.blue),
                     title: Text('$year Exam Paper'),
                     subtitle: Text('$selectedCourse - FUTO'),
                     trailing: ElevatedButton(

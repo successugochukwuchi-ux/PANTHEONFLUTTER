@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons_flutter/lucide_icons_flutter.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -49,7 +49,7 @@ class SettingsScreen extends StatelessWidget {
       leading: Icon(icon, color: const Color(0xFF0052D4)),
       title: Text(title, style: const TextStyle(fontWeight: FontWeight.w600)),
       subtitle: Text(subtitle, style: const TextStyle(fontSize: 12)),
-      trailing: trailing ?? const Icon(LucideIcons.chevronRight, size: 18),
+      trailing: trailing ?? Icon(LucideIcons.chevronRight, size: 18),
       onTap: () {},
     );
   }

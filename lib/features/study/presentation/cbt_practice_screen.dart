@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons_flutter/lucide_icons_flutter.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 
 class CBTPracticeScreen extends StatefulWidget {
   const CBTPracticeScreen({super.key});
@@ -90,7 +90,7 @@ class _CBTPracticeScreenState extends State<CBTPracticeScreen> {
                       children: [
                         IconButton(
                           onPressed: () => setState(() => questionCount = (questionCount - 5).clamp(5, 100)),
-                          icon: const Icon(LucideIcons.minusCircle),
+                          icon: Icon(LucideIcons.minusCircle),
                         ),
                         Expanded(
                           child: Slider(
@@ -104,7 +104,7 @@ class _CBTPracticeScreenState extends State<CBTPracticeScreen> {
                         ),
                         IconButton(
                           onPressed: () => setState(() => questionCount = (questionCount + 5).clamp(5, 100)),
-                          icon: const Icon(LucideIcons.plusCircle),
+                          icon: Icon(LucideIcons.plusCircle),
                         ),
                         Text('${questionCount.round()}', style: const TextStyle(fontWeight: FontWeight.bold)),
                       ],
@@ -160,7 +160,7 @@ class _CBTPracticeScreenState extends State<CBTPracticeScreen> {
 
                     ElevatedButton.icon(
                       onPressed: () {},
-                      icon: const Icon(LucideIcons.play),
+                      icon: Icon(LucideIcons.play),
                       label: const Text('Start CBT Session'),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: const Color(0xFF0052D4),
@@ -186,7 +186,7 @@ class _CBTPracticeScreenState extends State<CBTPracticeScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      const Icon(LucideIcons.trendingUp, color: Colors.white),
+                      Icon(LucideIcons.trendingUp, color: Colors.white),
                       Container(
                         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                         decoration: BoxDecoration(

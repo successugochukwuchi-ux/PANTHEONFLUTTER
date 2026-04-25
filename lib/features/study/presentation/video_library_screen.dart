@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons_flutter/lucide_icons_flutter.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 
 class VideoLibraryScreen extends StatefulWidget {
   const VideoLibraryScreen({super.key});
@@ -53,7 +53,7 @@ class _VideoLibraryScreenState extends State<VideoLibraryScreen> {
                         ListTile(
                           title: Text('Lesson ${index + 1}: Introduction to $selectedCourse'),
                           subtitle: const Text('Duration: 15:30 • 2 days ago'),
-                          trailing: const Icon(LucideIcons.downloadCloud),
+                          trailing: Icon(LucideIcons.downloadCloud),
                         ),
                       ],
                     ),

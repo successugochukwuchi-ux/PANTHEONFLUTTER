@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons_flutter/lucide_icons_flutter.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 
 class PunchNotesScreen extends StatelessWidget {
   const PunchNotesScreen({super.key});
@@ -31,7 +31,7 @@ class PunchNotesScreen extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text('Combo #${index + 1}: Quadratic Equations', style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
-                              const Icon(LucideIcons.cpu, size: 16, color: Colors.blue),
+                              Icon(LucideIcons.cpu, size: 16, color: Colors.blue),
                             ],
                           ),
                           const SizedBox(height: 12),

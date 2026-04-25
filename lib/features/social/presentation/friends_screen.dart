@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons_flutter/lucide_icons_flutter.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 
 class FriendsScreen extends StatelessWidget {
   const FriendsScreen({super.key});
@@ -42,11 +42,11 @@ class FriendsScreen extends StatelessWidget {
             ? Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  IconButton(icon: const Icon(LucideIcons.checkCircle, color: Colors.green), onPressed: () {}),
-                  IconButton(icon: const Icon(LucideIcons.xCircle, color: Colors.red), onPressed: () {}),
+                  IconButton(icon: Icon(LucideIcons.checkCircle, color: Colors.green), onPressed: () {}),
+                  IconButton(icon: Icon(LucideIcons.xCircle, color: Colors.red), onPressed: () {}),
                 ],
               )
-            : IconButton(icon: const Icon(LucideIcons.messageCircle, color: Color(0xFF0052D4)), onPressed: () {}),
+            : IconButton(icon: Icon(LucideIcons.messageCircle, color: Color(0xFF0052D4)), onPressed: () {}),
         );
       },
     );

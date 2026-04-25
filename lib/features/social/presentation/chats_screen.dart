@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons_flutter/lucide_icons_flutter.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 
 class ChatsScreen extends StatelessWidget {
   const ChatsScreen({super.key});
@@ -26,7 +26,7 @@ class ChatsScreen extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           backgroundColor: const Color(0xFF0052D4),
-          child: const Icon(LucideIcons.messagePlus, color: Colors.white),
+          child: Icon(LucideIcons.messagePlus, color: Colors.white),
         ),
       ),
     );
