@@ -26,7 +26,7 @@ class ChatsScreen extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           backgroundColor: const Color(0xFF0052D4),
-          child: Icon(LucideIcons.messagePlus, color: Colors.white),
+          child: Icon(LucideIcons.messageSquarePlus, color: Colors.white),
         ),
       ),
     );
